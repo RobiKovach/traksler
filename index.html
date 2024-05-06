@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240506150849">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/header/logo.svg" alt="" class="header__img">
+				</div>
+				<div class="header__actions actions-header">
+					<a href="tel:+38 (050) 32 40 40" class="actions-header__phone">
+						<img src="img/header/phone.svg" alt="Image">
+						<p>+38 (050) 372 40 40</p>
+					</a>
+					<div class="header__menu menu actions-header__menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list list-menu">
+								<h2 class="list-menu__title orange">Меню сайту</h2>
+								<div class="list-menu__menu">
+									<li class="menu__item"><a href="" class="menu__link">Головна</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Про проєкт</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Відгуки</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Переваги</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Інфраструктура</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Галерея</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Умови придбання</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Наші проєкти</a></li>
+								</div>
+								<div class="list-menu__info">
+									<div class="list-menu__sell">
+										<p class="orange">Відділ продажу</p>
+										<a href="tel:+38 (050) 32 40 40">+38 (050) 32 40 40</a>
+									</div>
+									<div class="list-menu__time">
+										<p class="orange">Час роботи</p>
+										<p>пн-сб: 10:00-19:00 <br>
+											нд: 10:00-17:00</p>
+									</div>
+								</div>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">
+							<span>ЖК</span>
+							<span class="kvadrat"></span>
+							<span>КВАДРАТ</span>
+						</h1>
+						<h3 class="hero__description">Все для комфортного, безпечного та сучасного життя в Ужгороді</h3>
+						<div class="hero__actions actions-hero">
+							<div class="actions-hero__orange">
+								<img src="img/hero/osela.webp" alt="Image">
+							</div>
+							<a href="tel:+38 (050) 32 40 40" class="actions-hero__white">
+								<img src="img/hero/arrow.svg" alt="Image">
+								<p>Зателефонувати</p>
+							</a>
+						</div>
+					</div>
+					<div class="hero__video video-hero">
+						<a href="" data-popup="#popup" class="video-hero">
+							<img src="img/hero/play.svg" alt="Image">
+						</a>
+						<p class="video-hero__description">Перегляньте відео про наше ЖК</p>
+					</div>
+				</div>
+			</section>
+			<section class="projekt">
+				<div class="projekt__container">
+					<div class="projekt__title">
+						<img src="img/block1/title.svg" alt="Image">
+						<img src="img/block1/titlemob.svg" alt="Image" class="mob-image">
+					</div>
+					<div class="projekt__text text-projekt">
+						<p class="text-projekt__item">
+							<span class="orange">У проєкт «Квадрат» входять 8 будинків</span>
+							з приміщеннями комерційного призначення, в яких для зручності мешканців
+							зосередять об’єкти внутрішньої інфраструктури комплексу.
+						</p>
+						<p class="text-projekt__item width-small">
+							4 з 8 будинків вже введені в експлуатацію.
+							<span class="orange">2 будинки</span>
+							будуть введені
+							<span class="orange">весною 2024 року.</span>
+							<span class="orange">Фінал будівництва</span>
+							— осінь 2024 року.
+						</p>
+					</div>
+					<div class="projekt__hauses">
+						<img src="img/block1/hauses.webp" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="comments">
+				<div class="comments__container">
+					<div class="comments__title">
+						<img src="img/comments/title.svg" alt="Image">
+						<img class="mob-image" src="img/comments/title-mob.svg" alt="Image">
+					</div>
+					<div class="comments__text">
+						Чому з усіх житлових комлексів міста вони обрали саме “ЖК Квадрат”?
+						<span class="orange">Дивіться відео нижче.</span>
+					</div>
+					<div class="comments__slider swiper">
+						<div class="comments__wrapper swiper-wrapper">
+							<div class="comments__slide swiper-slide">
+								<video id="video" class="comments__video" poster="img/comments/video/poster1.webp">
+									<source src="img/comments/video/video1.mp4" type="video/mp4">
+									<!-- Додайте інші джерела відео -->
+								</video>
+								<button type="button" id="playPauseButton" class="video-button">
+									<img src="img/comments/video/Play.svg" alt="Image">
+								</button>
+							</div>
+							<div class="comments__slide swiper-slide">
+								<video id="video" class="comments__video" poster="img/comments/video/poster2.webp">
+									<source src="img/comments/video/video2.mp4" type="video/mp4">
+									<!-- Додайте інші джерела відео -->
+								</video>
+								<button type="button" id="playPauseButton" class="video-button">
+									<img src="img/comments/video/Play.svg" alt="Image">
+								</button>
+							</div>
+							<div class="comments__slide swiper-slide">
+								<video id="video" class="comments__video" poster="img/comments/video/poster3.webp">
+									<source src="img/comments/video/video3.mp4" type="video/mp4">
+									<!-- Додайте інші джерела відео -->
+								</video>
+								<button type="button" id="playPauseButton" class="video-button">
+									<img src="img/comments/video/Play.svg" alt="Image">
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="comments__btn">
+						<a href="#" class="comments__more">
+							<p>Перегляньте інші відео</p>
+							<svg class="svg-orange" xmlns="http://www.w3.org/2000/svg" width="45" height="15" viewBox="0 0 45 15" fill="none">
+								<path d="M44.7071 8.20711C45.0976 7.81658 45.0976 7.18342 44.7071 6.79289L38.3431 0.428932C37.9526 0.0384078 37.3195 0.0384078 36.9289 0.428932C36.5384 0.819457 36.5384 1.45262 36.9289 1.84315L42.5858 7.5L36.9289 13.1569C36.5384 13.5474 36.5384 14.1805 36.9289 14.5711C37.3195 14.9616 37.9526 14.9616 38.3431 14.5711L44.7071 8.20711ZM0 8.5H44V6.5H0V8.5Z" fill="#FF9F42" />
+							</svg>
+							<svg class="svg-white" xmlns="http://www.w3.org/2000/svg" width="45" height="15" viewBox="0 0 45 15" fill="none">
+								<path d="M44.7071 8.20711C45.0976 7.81658 45.0976 7.18342 44.7071 6.79289L38.3431 0.428932C37.9526 0.0384078 37.3195 0.0384078 36.9289 0.428932C36.5384 0.819457 36.5384 1.45262 36.9289 1.84315L42.5858 7.5L36.9289 13.1569C36.5384 13.5474 36.5384 14.1805 36.9289 14.5711C37.3195 14.9616 37.9526 14.9616 38.3431 14.5711L44.7071 8.20711ZM0 8.5H44V6.5H0V8.5Z" fill="white" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="advantages__container">
+					<div class="advantages__title">
+						<img src="img/advantages/title.svg" alt="Image">
+						<img class="mob-image" src="img/advantages/title-mob.svg" alt="Image">
+					</div>
+					<div class="advantages__items items-advantages">
+						<div class="items-advantages__itemsleft itemsleft-advantages">
+							<div class="itemsleft-advantages__item item-itemsleft">
+								<div class="item-itemsleft__content">
+									<div class="item-itemsleft__title">
+										<span class="orange">01</span>
+										<p>Парковка</p>
+									</div>
+									<div class="item-itemsleft__description">
+										Завдяки великій вільній парковці на 448 місць,
+										нам вдалося створити місце для кожного мешканця.
+										84 гаражі та паркінг на 98 місць – це простір для
+										вашого транспорту, який завжди з вами, коли ви вдома.
+									</div>
+								</div>
+								<div class="item-itemsleft__img">
+									<img src="img/advantages/image1.webp" alt="Image">
+								</div>
+							</div>
+							<div class="itemsleft-advantages__item item-itemsleft">
+								<div class="item-itemsleft__content">
+									<div class="item-itemsleft__title">
+										<span class="orange">02</span>
+										<p>Ігрові майданчики</p>
+									</div>
+									<div class="item-itemsleft__description">
+										4 дитячі ігрові майданчики. Кожен майданчик вражає
+										різноманіттям та оригінальністю. Тут є місце для творчості,
+										фізичної активності та соціального взаємодії.
+									</div>
+								</div>
+								<div class="item-itemsleft__img">
+									<img src="img/advantages/image2.webp" alt="Image">
+								</div>
+							</div>
+							<div class="itemsleft-advantages__item item-itemsleft">
+								<div class="item-itemsleft__content">
+									<div class="item-itemsleft__title">
+										<span class="orange">03</span>
+										<p>Ліфт</p>
+									</div>
+									<div class="item-itemsleft__description">
+										Два великогабаритні ліфти (розраховані на 1000 кг) у
+										кожному з будинків, в яких буде комфортно перевозити свої речі.
+
+									</div>
+								</div>
+								<div class="item-itemsleft__img">
+									<img src="img/advantages/image3.webp" alt="Image">
+								</div>
+							</div>
+							<div class="itemsleft-advantages__item item-itemsleft">
+								<div class="item-itemsleft__content">
+									<div class="item-itemsleft__title">
+										<span class="orange">04</span>
+										<p>Безпека</p>
+									</div>
+									<div class="item-itemsleft__description">
+										Завдяки відеоспостереженню і закритій території
+										ви зможете відчувати себе безпечно.
+									</div>
+								</div>
+								<div class="item-itemsleft__img">
+									<img src="img/advantages/image4.webp" alt="Image">
+								</div>
+							</div>
+						</div>
+						<div class="items-advantages__itemsright itemsright-advantages">
+							<div class="itemsright-advantages__item item-itemsright">
+								<div class="item-itemsright__img">
+									<img src="img/advantages/image5.webp" alt="Image">
+								</div>
+								<div class="item-itemsright__content">
+									<div class="item-itemsright__title">
+										<span class="orange">05</span>
+										<p>Cпортивні майданчики</p>
+									</div>
+									<div class="item-itemsright__description">
+										Тут кожен знайде щось для себе: чоловіки можуть пограти футбол,
+										баскетбол, задіяти кожну групу мʼязів на тренажерах, мами та
+										жінки зможуть насолоджуватись тренуваннями на свіжому повітрі.
+									</div>
+								</div>
+
+							</div>
+							<div class="itemsright-advantages__item item-itemsright">
+								<div class="item-itemsright__img">
+									<img src="img/advantages/image6.webp" alt="Image">
+								</div>
+								<div class="item-itemsright__content">
+									<div class="item-itemsright__title">
+										<span class="orange">06</span>
+										<p>Безбарʼєрні доступи</p>
+									</div>
+									<div class="item-itemsright__description">
+										Завдяки безбар'єрним доступам, кожна людина, незалежно
+										від фізичних можливостей, відчуває себе повноцінно.
+									</div>
+								</div>
+
+							</div>
+							<div class="itemsright-advantages__item item-itemsright">
+								<div class="item-itemsright__img">
+									<img src="img/advantages/image7.webp" alt="Image">
+								</div>
+								<div class="item-itemsright__content">
+
+									<div class="item-itemsright__title">
+										<span class="orange">07</span>
+										<p>Барбекю зона</p>
+									</div>
+									<div class="item-itemsright__description">
+										Барбекю зона - це ідеальне місце для родинних свят,
+										дружніх посиденьок чи невимушених вечорів з сусідами.
+
+									</div>
+								</div>
+
+							</div>
+							<div class="itemsright-advantages__item item-itemsright">
+								<div class="item-itemsright__img">
+									<img src="img/advantages/image8.webp" alt="Image">
+								</div>
+								<div class="item-itemsright__content">
+
+									<div class="item-itemsright__title">
+										<span class="orange">08</span>
+										<p>Місця для вигулу</p>
+									</div>
+									<div class="item-itemsright__description">
+										Ваші улюбленці - не просто гості, а частинка нашої
+										великої родини! У нас ви знайдете відокремлене
+										місце для вигулу.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="infrastruktura">
+				<div class="infrastruktura__container">
+					<div class="infrastruktura__title">
+						<img src="img/infasturtura/title.svg" alt="Image">
+						<img class="mob-image" src="img/infasturtura/title-mob.svg" alt="Image">
+					</div>
+					<div class="infrastruktura__text text-infrastruktura">
+						<p class="text-infrastruktura__description">
+							Поряд з “ЖК Квадрат” знаходиться безліч супермаркетів
+							та закладів громадського харчування, також школи, дитячі
+							садочки та тренажерний зал.
+						</p>
+						<p class="text-infrastruktura__description">
+							Всю найближчу <span class="orange">інфраструктуру можете переглянути на карті.</span>
+						</p>
+					</div>
+					<div class="infrastruktura__content content-infrastruktura">
+						<div class="content-infrastruktura__image">
+							<img src="img/infasturtura/map.webp" alt="Image">
+						</div>
+						<div class="content-infrastruktura__info info-infrastruktura">
+							<div class="info-infrastruktura__items items-infrastruktura">
+								<div class="items-infrastruktura__item">
+									<p class="orange big">
+										<img src="img/infasturtura/2.svg" alt="Image">
+									</p>
+									<p class="items-infrastruktura__text">Спортивний зал “Гармонія”</p>
+								</div>
+								<div class="items-infrastruktura__item">
+									<p class="orange big"><img src="img/infasturtura/5.svg" alt="Image"></p>
+									<p class="items-infrastruktura__text">Супер-маркет “АТБ”</p>
+								</div>
+								<div class="items-infrastruktura__item">
+									<p class="orange big"><img src="img/infasturtura/7.svg" alt="Image"></p>
+									<p class="items-infrastruktura__text">Дитячий садок №21</p>
+								</div>
+								<div class="items-infrastruktura__item">
+									<p class="orange big width-big"><img src="img/infasturtura/10.svg" alt="Image"></p>
+									<p class="items-infrastruktura__text">Ужгородська класична
+										гімназія</p>
+								</div>
+							</div>
+							<a href="tel:+38 (050) 32 40 40" class="info-infrastruktura__btn">Зателефонувати</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="masonory">
+				<div class="masonory__container">
+					<div class="masonory__title">Галерея</div>
+					<div class="masonory__gallery">
+						<img class="masonory__image" src="img/gallery/1.webp" alt="Image">
+						<img class="masonory__image" src="img/gallery/2.webp" alt="Image">
+						<img class="masonory__image transform" src="img/gallery/3.webp" alt="Image">
+						<img class="masonory__image" src="img/gallery/4.webp" alt="Image">
+						<img class="masonory__image hidden" src="img/gallery/5.webp" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="sell">
+				<div class="sell__container">
+					<div class="sell__title">
+						<img src="img/sell/title.svg" alt="Image">
+						<img class="mob-image" src="img/sell/title-mob.svg" alt="Image">
+					</div>
+					<div class="sell__actions">
+						<div class="sell__action action-sell">
+							<p class="action-sell__text">
+								<span class="orange">Зателефонуйте нам</span>
+								, і наш менеджер проконсультує вас.
+							</p>
+							<a href="tel:+38 (050) 32 40 40" class="info-infrastruktura__btn">Зателефонувати</a>
+						</div>
+					</div>
+					<div class="sell__descriptions">
+						<img class="sell__border" src="img/sell/border.svg" alt="Image">
+						<img class="sell__border-mob" src="img/sell/border-mob.svg" alt="Image">
+						<div class="sell__description description-sell">
+							<div class="description-sell__title">
+								<span class="orange number">01</span>
+								<p>Іпотечна програма <span class="orange">“єОселя”</span></p>
+							</div>
+							<p class="description-sell__text">На зданні будинки.</p>
+						</div>
+						<div class="sell__description description-sell">
+							<div class="description-sell__title">
+								<span class="orange number">02</span>
+								<p>Розтермінування <span class="orange">до 1 року</span> від забудовника</p>
+							</div>
+							<p class="description-sell__text">
+								Від 50% перший внесок, під 0% на квартири, що будуються.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="projects">
+				<div class="projects__container">
+					<div class="projects__title">
+						<img src="img/projects/title.svg" alt="Image">
+						<img class="mob-image" src="img/projects/title-mob.svg" alt="Image">
+					</div>
+					<div class="projects__text text-projekts">
+						<p class="text-projekts__text">
+							Для своїх проєктів <sapn class="orange">ми обираємо</sapn> таке
+							<sapn class="orange">розміщення</sapn>,
+							яке наповнене інфраструктурним потенціалом,
+							створюємо майбутнім власникам додаткові
+							<sapn class="orange">можливості для життя, роботи й дозвілля.</sapn>
+						</p>
+
+						<p class="text-projekts__text">
+							Ми переконані, що <sapn class="orange">зручне розташування</sapn> місця проживання,
+							хороша транспортна розв’язка, близькість до зупинок
+							громадського транспорту, закладів освіти та популярних
+							об’єктів інфраструктури мають бути не перевагами, а
+							<span class="orange">обов’язковими критеріями</span> кожного забудовника…
+						</p>
+					</div>
+					<div class="projects__video-block">
+						<video id="video" class="projects__video">
+							<source src="img/projects/TRAKSLER.mp4" type="video/mp4">
+							<!-- Додайте інші джерела відео -->
+						</video>
+						<button type="button" id="playPauseButton" class="projects__video-button">
+							<img src="img/comments/video/Play.svg" alt="Image">
+							<p>Відео про нас</p>
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main main-footer">
+					<div class="main-footer__logo">
+						<img src="img/footer/logo.webp" alt="logo" class="main-footer__logo-img">
+					</div>
+					<div class="main-footer__items items-footer">
+						<div class="items-footer__item footer-item">
+							<p class="footer-item__title orange">Відділ продажу</p>
+							<a href="tel:+38 (050) 32 40 40" class="footer-item__descriptions">+38 (050) 32 40 40</a>
+						</div>
+						<div class="items-footer__item footer-item">
+							<p class="footer-item__title orange">Час роботи</p>
+							<p class="footer-item__descriptions">пн-сб: 10:00-19:00 <br> нд: 10:00-17:00</p>
+						</div>
+						<div data-da=".second-footer, 768, 0" class="items-footer__item footer-item soc">
+							<p class="footer-item__title orange soc-hid">Наші соц. мережі</p>
+							<div class="footer-item__socials">
+								<a href="https://www.facebook.com/trakslerdevelopment" class="footer-item__social">
+									<img src="img/footer/facebook.svg" alt="facebook">
+								</a>
+								<a href="https://www.instagram.com/trakslerdevelopment?igsh=NGlqd3dsZHFvaGpx" class="footer-item__social">
+									<img src="img/footer/instagram.svg" alt="instagram">
+								</a>
+								<a href="#" class="footer-item__social">
+									<img src="img/footer/telegram.svg" alt="telegram">
+								</a>
+								<a href="https://www.youtube.com/@trakslerdevelopment7542" class="footer-item__social">
+									<img src="img/footer/youtube.svg" alt="youtube">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__second second-footer">
+					<p data-da=".copyright, 768" class="second-footer__dev">2024. Traksler Development. Всі права захищенні.</p>
+					<p class="second-footer__rdp">Made by RPD</p>
+				</div>
+				<div class="footer__copyright copyright"></div>
+			</div>
+		</footer>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#FF9F42" stroke-linecap="square" />
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#FF9F42" stroke-linecap="square" />
+						</svg>
+					</button>
+					<div class="popup__text">
+						<div class="popup__video">
+							<video id="video" class="popup__video">
+								<source src="img/hero/hero.mp4" type="video/mp4">
+								<!-- Додайте інші джерела відео -->
+							</video>
+							<button type="button" id="playPauseButton" class="video-button">
+								<img src="img/comments/video/Play.svg" alt="Image">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240506150849"></script>
+</body>
+
+</html>
