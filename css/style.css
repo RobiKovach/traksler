@@ -299,7 +299,32 @@ body::after {
   pointer-events: none
 }
 .popup__close {
-  color: #ff9f42
+  color: #ff9f42;
+  position: relative;
+  width: 23px;
+  height: 23px
+}
+.popup__close::after {
+  content: "";
+  width: 23px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #ff9f42;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg)
+}
+.popup__close::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 23px;
+  height: 2px;
+  background-color: #ff9f42;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg)
 }
 .popup_show {
   z-index: 150;
@@ -756,6 +781,7 @@ img {
   width: 593px;
   font-size: 20px;
   font-weight: 500;
+  line-height: normal;
   margin-top: -4.0625rem
 }
 .comments__slide {
@@ -987,7 +1013,20 @@ img {
 .text-infrastruktura__description {
   font-family: Inter;
   font-size: 20px;
+  line-height: normal;
   font-weight: 400
+}
+.content-infrastruktura__image:hover .content-infrastruktura__with {
+  display: flex
+}
+.content-infrastruktura__image:hover .content-infrastruktura__without {
+  display: none
+}
+.content-infrastruktura__with {
+  display: none
+}
+.content-infrastruktura__without {
+  display: flex
 }
 .content-infrastruktura__info {
   display: flex;
@@ -1232,7 +1271,8 @@ img {
 .text-projekts__text {
   font-family: Inter;
   font-size: 20px;
-  font-weight: 400
+  font-weight: 400;
+  line-height: normal
 }
 .popup__video {
   height: 90vh;
@@ -1372,6 +1412,9 @@ img {
   .hero {
     background: url(../img/hero/bg1440.webp) no-repeat
   }
+  .hero__container {
+    padding-top: 40px
+  }
 }
 @media (max-width:1000px) {
   .footer__main {
@@ -1486,6 +1529,9 @@ img {
   .soc-hid {
     display: none
   }
+  .hero__content {
+    align-items: flex-start
+  }
   .hero__title {
     justify-content: flex-start
   }
@@ -1552,6 +1598,10 @@ img {
   .sell__title .mob-image {
     display: flex
   }
+  .description-sell__text {
+    width: 95%;
+    margin-left: 30px
+  }
   .projects__title img {
     display: none
   }
@@ -1564,11 +1614,18 @@ img {
   }
 }
 @media (max-width:29.99875em) {
+  .hero {
+    background: url(../img/hero/bgphone.webp) no-repeat;
+    background-size: cover
+  }
+  .hero__description {
+    width: 88%
+  }
   .description-sell__title {
     width: 95%
   }
   .description-sell__text {
-    width: 95%
+    width: 88%
   }
   .projects__video-button img {
     width: 70%
@@ -1967,6 +2024,26 @@ img {
       width: calc(2rem + .75 * (100vw - 22.5rem)/ 25.5)
     }
   }
+  @supports (font-size:clamp(0.75rem ,0.3088235294rem + 1.9607843137vw ,1.25rem)) {
+    .item-itemsleft__description {
+      font-size: clamp(.75rem ,.3088235294rem + 1.9607843137vw ,1.25rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.3088235294rem + 1.9607843137vw ,1.25rem)) {
+    .item-itemsleft__description {
+      font-size: calc(.75rem + .5 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.3088235294rem + 1.9607843137vw ,1.25rem)) {
+    .item-itemsright__description {
+      font-size: clamp(.75rem ,.3088235294rem + 1.9607843137vw ,1.25rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.3088235294rem + 1.9607843137vw ,1.25rem)) {
+    .item-itemsright__description {
+      font-size: calc(.75rem + .5 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
   @supports (margin-bottom:clamp(3.5rem ,0.8529411765rem + 11.7647058824vw ,6.5rem)) {
     .infrastruktura__container {
       margin-bottom: clamp(3.5rem ,.8529411765rem + 11.7647058824vw ,6.5rem)
@@ -2263,6 +2340,18 @@ img {
   @supports not (background-position-x:clamp(-54.375rem ,-72.5000000208rem + 80.5555556481vw ,0.0000000625rem)) {
     .hero {
       background-position-x: calc(-54.375rem + 54.3750000625 * (100vw - 22.5rem)/ 67.5)
+    }
+  }
+}
+@media (max-width:1440px) and (min-width:22.5em) and (max-width:48.0625em) {
+  @supports (padding-top:clamp(0.0000000625rem ,-2.20048888rem + 9.7799508557vw ,2.5rem)) {
+    .hero__container {
+      padding-top: clamp(.0000000625rem ,-2.20048888rem + 9.7799508557vw ,2.5rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.0000000625rem ,-2.20048888rem + 9.7799508557vw ,2.5rem)) {
+    .hero__container {
+      padding-top: calc(.0000000625rem + 2.4999999375 * (100vw - 22.5rem)/ 25.5625)
     }
   }
 }

@@ -5178,7 +5178,6 @@
                 observeParents: true,
                 slidesPerView: 3,
                 speed: 800,
-                loop: true,
                 navigation: {
                     prevEl: ".swiper-button-prev",
                     nextEl: ".swiper-button-next"
@@ -5377,11 +5376,14 @@
         da.init();
         const videos = document.querySelectorAll("#video");
         const buttons = document.querySelectorAll("#playPauseButton");
-        const popupVideo = document.getElementById("popup");
-        const videoPopup = document.querySelector(".popup__video");
+        const popupVideo = document.querySelector(".popup__close");
+        const videoPopupOpen = document.querySelector(".popen");
+        const videoPopup = document.getElementById("popup");
         videos.forEach(((video, index) => {
             buttons[index].addEventListener("click", (() => toggleVideo(video, buttons[index])));
+            videoPopupOpen.addEventListener("click", (() => toggleVideo(video, buttons[index])));
             video.addEventListener("click", (() => pauseVideo(video, buttons[index])));
+            popupVideo.addEventListener("click", (() => stopVideo(video, videoPopup)));
         }));
         function toggleVideo(video, button) {
             if (video.paused) {
@@ -5407,9 +5409,9 @@
                 button.style.display = "block";
             }
         }
-        popupVideo.addEventListener("close", (() => {
-            videoPopup.pause();
-        }));
+        function stopVideo(video, videoPopup) {
+            if (videoPopup.ariaHidden = true) if (video.played) video.pause();
+        }
         window["FLS"] = true;
         menuInit();
         pageNavigation();
