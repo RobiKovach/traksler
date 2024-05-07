@@ -1016,17 +1016,8 @@ img {
   line-height: normal;
   font-weight: 400
 }
-.content-infrastruktura__image:hover .content-infrastruktura__with {
-  display: flex
-}
-.content-infrastruktura__image:hover .content-infrastruktura__without {
-  display: none
-}
-.content-infrastruktura__with {
-  display: none
-}
-.content-infrastruktura__without {
-  display: flex
+.content-infrastruktura__image {
+  position: relative
 }
 .content-infrastruktura__info {
   display: flex;
@@ -1034,6 +1025,230 @@ img {
   justify-content: space-between;
   row-gap: 9.25rem;
   width: 100%
+}
+.image-infrastruktura__uni {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  width: 3.625rem;
+  height: 4.875rem;
+  display: flex;
+  align-items: center
+}
+.image-infrastruktura__uni img {
+  width: 100%
+}
+.image-infrastruktura__uni span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal
+}
+.image-infrastruktura__uni:hover span {
+  scale: 1
+}
+.image-infrastruktura__sad {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  top: 130px;
+  left: 138px
+}
+.image-infrastruktura__sad img {
+  width: 100%
+}
+.image-infrastruktura__sad span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal;
+  width: 155px;
+  position: absolute;
+  left: 64px;
+  top: 15px
+}
+.image-infrastruktura__sad:hover span {
+  scale: 1
+}
+.image-infrastruktura__tokio {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  top: 99px;
+  left: 207px
+}
+.image-infrastruktura__tokio img {
+  width: 100%
+}
+.image-infrastruktura__tokio span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal;
+  width: 125px;
+  position: absolute;
+  left: 64px;
+  top: 15px
+}
+.image-infrastruktura__tokio:hover span {
+  scale: 1
+}
+.image-infrastruktura__pizza {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  top: 132px;
+  left: 338px
+}
+.image-infrastruktura__pizza img {
+  width: 100%
+}
+.image-infrastruktura__pizza span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal;
+  width: 223px;
+  position: absolute;
+  left: 64px;
+  top: 15px
+}
+.image-infrastruktura__pizza:hover span {
+  scale: 1
+}
+.image-infrastruktura__gimnasia {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  top: 262px;
+  left: 614px
+}
+.image-infrastruktura__gimnasia img {
+  width: 100%
+}
+.image-infrastruktura__gimnasia span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal;
+  width: 200px;
+  position: absolute;
+  left: -204px;
+  top: 15px
+}
+.image-infrastruktura__gimnasia:hover span {
+  scale: 1
+}
+.image-infrastruktura__market {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  top: 334px;
+  left: 372px
+}
+.image-infrastruktura__market img {
+  width: 100%
+}
+.image-infrastruktura__market span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal
+}
+.image-infrastruktura__market:hover span {
+  scale: 1
+}
+.image-infrastruktura__sportzal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 3.625rem;
+  height: 4.875rem;
+  z-index: 2;
+  top: 433px;
+  left: 291px
+}
+.image-infrastruktura__sportzal img {
+  width: 100%
+}
+.image-infrastruktura__sportzal span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #394867;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+  color: #fff;
+  scale: 0;
+  transition: all .3s;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  line-height: normal;
+  width: 180px;
+  position: absolute;
+  left: 64px;
+  top: 15px
+}
+.image-infrastruktura__sportzal:hover span {
+  scale: 1
 }
 .info-infrastruktura__items {
   display: flex;
@@ -2075,6 +2290,646 @@ img {
       row-gap: calc(1.5rem + 7.8125 * (100vw - 22.5rem)/ 25.5)
     }
   }
+  @supports (top:clamp(5rem ,-0.625rem + 25vw ,11.375rem)) {
+    .image-infrastruktura__uni {
+      top: clamp(5rem ,-.625rem + 25vw ,11.375rem)
+    }
+  }
+  @supports not (top:clamp(5rem ,-0.625rem + 25vw ,11.375rem)) {
+    .image-infrastruktura__uni {
+      top: calc(5rem + 6.375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(1.6875rem ,-0.1323529412rem + 8.0882352941vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      left: clamp(1.6875rem ,-.1323529412rem + 8.0882352941vw ,3.75rem)
+    }
+  }
+  @supports not (left:clamp(1.6875rem ,-0.1323529412rem + 8.0882352941vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      left: calc(1.6875rem + 2.0625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__uni span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__uni span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__uni span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__uni span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__uni span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__uni span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__uni span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__uni span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__uni span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__uni span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(3.6875rem ,-0.3382352941rem + 17.8921568627vw ,8.25rem)) {
+    .image-infrastruktura__sad {
+      top: clamp(3.6875rem ,-.3382352941rem + 17.8921568627vw ,8.25rem)
+    }
+  }
+  @supports not (top:clamp(3.6875rem ,-0.3382352941rem + 17.8921568627vw ,8.25rem)) {
+    .image-infrastruktura__sad {
+      top: calc(3.6875rem + 4.5625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(3.9375rem ,-0.2536764706rem + 18.6274509804vw ,8.6875rem)) {
+    .image-infrastruktura__sad {
+      left: clamp(3.9375rem ,-.2536764706rem + 18.6274509804vw ,8.6875rem)
+    }
+  }
+  @supports not (left:clamp(3.9375rem ,-0.2536764706rem + 18.6274509804vw ,8.6875rem)) {
+    .image-infrastruktura__sad {
+      left: calc(3.9375rem + 4.75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__sad span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__sad span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sad span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sad span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sad span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sad span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sad span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sad span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sad span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sad span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (width:clamp(5.9375rem ,2.6286764706rem + 14.7058823529vw ,9.6875rem)) {
+    .image-infrastruktura__sad span {
+      width: clamp(5.9375rem ,2.6286764706rem + 14.7058823529vw ,9.6875rem)
+    }
+  }
+  @supports not (width:clamp(5.9375rem ,2.6286764706rem + 14.7058823529vw ,9.6875rem)) {
+    .image-infrastruktura__sad span {
+      width: calc(5.9375rem + 3.75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__sad span {
+      left: clamp(1.875rem ,.0000000625rem + 8.3333333333vw ,4rem)
+    }
+  }
+  @supports not (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__sad span {
+      left: calc(1.875rem + 2.125 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__sad span {
+      top: clamp(.3125rem ,-.2389705882rem + 2.4509803922vw ,.9375rem)
+    }
+  }
+  @supports not (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__sad span {
+      top: calc(.3125rem + .625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(2.6875rem ,-0.4007352941rem + 13.7254901961vw ,6.1875rem)) {
+    .image-infrastruktura__tokio {
+      top: clamp(2.6875rem ,-.4007352941rem + 13.7254901961vw ,6.1875rem)
+    }
+  }
+  @supports not (top:clamp(2.6875rem ,-0.4007352941rem + 13.7254901961vw ,6.1875rem)) {
+    .image-infrastruktura__tokio {
+      top: calc(2.6875rem + 3.5 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(5.875rem ,-0.3566176471rem + 27.6960784314vw ,12.9375rem)) {
+    .image-infrastruktura__tokio {
+      left: clamp(5.875rem ,-.3566176471rem + 27.6960784314vw ,12.9375rem)
+    }
+  }
+  @supports not (left:clamp(5.875rem ,-0.3566176471rem + 27.6960784314vw ,12.9375rem)) {
+    .image-infrastruktura__tokio {
+      left: calc(5.875rem + 7.0625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__tokio span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__tokio span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__tokio span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__tokio span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__tokio span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__tokio span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__tokio span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__tokio span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__tokio span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__tokio span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (width:clamp(4.5625rem ,1.6948529412rem + 12.7450980392vw ,7.8125rem)) {
+    .image-infrastruktura__tokio span {
+      width: clamp(4.5625rem ,1.6948529412rem + 12.7450980392vw ,7.8125rem)
+    }
+  }
+  @supports not (width:clamp(4.5625rem ,1.6948529412rem + 12.7450980392vw ,7.8125rem)) {
+    .image-infrastruktura__tokio span {
+      width: calc(4.5625rem + 3.25 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__tokio span {
+      left: clamp(1.875rem ,.0000000625rem + 8.3333333333vw ,4rem)
+    }
+  }
+  @supports not (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__tokio span {
+      left: calc(1.875rem + 2.125 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__tokio span {
+      top: clamp(.3125rem ,-.2389705882rem + 2.4509803922vw ,.9375rem)
+    }
+  }
+  @supports not (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__tokio span {
+      top: calc(.3125rem + .625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(3.625rem ,-0.4558823529rem + 18.137254902vw ,8.25rem)) {
+    .image-infrastruktura__pizza {
+      top: clamp(3.625rem ,-.4558823529rem + 18.137254902vw ,8.25rem)
+    }
+  }
+  @supports not (top:clamp(3.625rem ,-0.4558823529rem + 18.137254902vw ,8.25rem)) {
+    .image-infrastruktura__pizza {
+      top: calc(3.625rem + 4.625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(9.6875rem ,-0.4595588235rem + 45.0980392157vw ,21.1875rem)) {
+    .image-infrastruktura__pizza {
+      left: clamp(9.6875rem ,-.4595588235rem + 45.0980392157vw ,21.1875rem)
+    }
+  }
+  @supports not (left:clamp(9.6875rem ,-0.4595588235rem + 45.0980392157vw ,21.1875rem)) {
+    .image-infrastruktura__pizza {
+      left: calc(9.6875rem + 11.5 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__pizza span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__pizza span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__pizza span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__pizza span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__pizza span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__pizza span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__pizza span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__pizza span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__pizza span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__pizza span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (width:clamp(8.75rem ,4.1727941176rem + 20.3431372549vw ,13.9375rem)) {
+    .image-infrastruktura__pizza span {
+      width: clamp(8.75rem ,4.1727941176rem + 20.3431372549vw ,13.9375rem)
+    }
+  }
+  @supports not (width:clamp(8.75rem ,4.1727941176rem + 20.3431372549vw ,13.9375rem)) {
+    .image-infrastruktura__pizza span {
+      width: calc(8.75rem + 5.1875 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__pizza span {
+      left: clamp(1.875rem ,.0000000625rem + 8.3333333333vw ,4rem)
+    }
+  }
+  @supports not (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__pizza span {
+      left: calc(1.875rem + 2.125 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__pizza span {
+      top: clamp(.3125rem ,-.2389705882rem + 2.4509803922vw ,.9375rem)
+    }
+  }
+  @supports not (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__pizza span {
+      top: calc(.3125rem + .625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(7.375rem ,-0.7316176471rem + 36.0294117647vw ,16.5625rem)) {
+    .image-infrastruktura__gimnasia {
+      top: clamp(7.375rem ,-.7316176471rem + 36.0294117647vw ,16.5625rem)
+    }
+  }
+  @supports not (top:clamp(7.375rem ,-0.7316176471rem + 36.0294117647vw ,16.5625rem)) {
+    .image-infrastruktura__gimnasia {
+      top: calc(7.375rem + 9.1875 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(17.625rem ,-0.6838235294rem + 81.3725490196vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: clamp(17.625rem ,-.6838235294rem + 81.3725490196vw ,38.375rem)
+    }
+  }
+  @supports not (left:clamp(17.625rem ,-0.6838235294rem + 81.3725490196vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: calc(17.625rem + 20.75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__gimnasia span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__gimnasia span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__gimnasia span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (width:clamp(7.5rem ,3.0882352941rem + 19.6078431373vw ,12.5rem)) {
+    .image-infrastruktura__gimnasia span {
+      width: clamp(7.5rem ,3.0882352941rem + 19.6078431373vw ,12.5rem)
+    }
+  }
+  @supports not (width:clamp(7.5rem ,3.0882352941rem + 19.6078431373vw ,12.5rem)) {
+    .image-infrastruktura__gimnasia span {
+      width: calc(7.5rem + 5 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(-12.75rem ,-3.4558823529rem + -19.362745098vw ,-7.8125rem)) {
+    .image-infrastruktura__gimnasia span {
+      left: clamp(-12.75rem ,-3.4558823529rem + -19.362745098vw ,-7.8125rem)
+    }
+  }
+  @supports not (left:clamp(-12.75rem ,-3.4558823529rem + -19.362745098vw ,-7.8125rem)) {
+    .image-infrastruktura__gimnasia span {
+      left: calc(-7.8125rem + -4.9375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__gimnasia span {
+      top: clamp(.3125rem ,-.2389705882rem + 2.4509803922vw ,.9375rem)
+    }
+  }
+  @supports not (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__gimnasia span {
+      top: calc(.3125rem + .625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(9.4375rem ,-0.6544117647rem + 44.8529411765vw ,20.875rem)) {
+    .image-infrastruktura__market {
+      top: clamp(9.4375rem ,-.6544117647rem + 44.8529411765vw ,20.875rem)
+    }
+  }
+  @supports not (top:clamp(9.4375rem ,-0.6544117647rem + 44.8529411765vw ,20.875rem)) {
+    .image-infrastruktura__market {
+      top: calc(9.4375rem + 11.4375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(9.3125rem ,-2.9852941176rem + 54.6568627451vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: clamp(9.3125rem ,-2.9852941176rem + 54.6568627451vw ,23.25rem)
+    }
+  }
+  @supports not (left:clamp(9.3125rem ,-2.9852941176rem + 54.6568627451vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: calc(9.3125rem + 13.9375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__market span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__market span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__market span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__market span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__market span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__market span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__market span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__market span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__market span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__market span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(12.1875rem ,-0.9375rem + 58.3333333333vw ,27.0625rem)) {
+    .image-infrastruktura__sportzal {
+      top: clamp(12.1875rem ,-.9375rem + 58.3333333333vw ,27.0625rem)
+    }
+  }
+  @supports not (top:clamp(12.1875rem ,-0.9375rem + 58.3333333333vw ,27.0625rem)) {
+    .image-infrastruktura__sportzal {
+      top: calc(12.1875rem + 14.875 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(8.3125rem ,-0.4007352941rem + 38.7254901961vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: clamp(8.3125rem ,-.4007352941rem + 38.7254901961vw ,18.1875rem)
+    }
+  }
+  @supports not (left:clamp(8.3125rem ,-0.4007352941rem + 38.7254901961vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: calc(8.3125rem + 9.875 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__sportzal span {
+      font-size: clamp(.75rem ,.4191176471rem + 1.4705882353vw ,1.125rem)
+    }
+  }
+  @supports not (font-size:clamp(0.75rem ,0.4191176471rem + 1.4705882353vw ,1.125rem)) {
+    .image-infrastruktura__sportzal span {
+      font-size: calc(.75rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-top: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-top:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-top: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-bottom: clamp(.25rem ,-.0808823529rem + 1.4705882353vw ,.625rem)
+    }
+  }
+  @supports not (padding-bottom:clamp(0.25rem ,-0.0808823529rem + 1.4705882353vw ,0.625rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-bottom: calc(.25rem + .375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-left: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-left:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-left: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-right: clamp(.5rem ,-.1617647059rem + 2.9411764706vw ,1.25rem)
+    }
+  }
+  @supports not (padding-right:clamp(0.5rem ,-0.1617647059rem + 2.9411764706vw ,1.25rem)) {
+    .image-infrastruktura__sportzal span {
+      padding-right: calc(.5rem + .75 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (width:clamp(6.875rem ,3.0147058824rem + 17.1568627451vw ,11.25rem)) {
+    .image-infrastruktura__sportzal span {
+      width: clamp(6.875rem ,3.0147058824rem + 17.1568627451vw ,11.25rem)
+    }
+  }
+  @supports not (width:clamp(6.875rem ,3.0147058824rem + 17.1568627451vw ,11.25rem)) {
+    .image-infrastruktura__sportzal span {
+      width: calc(6.875rem + 4.375 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__sportzal span {
+      left: clamp(1.875rem ,.0000000625rem + 8.3333333333vw ,4rem)
+    }
+  }
+  @supports not (left:clamp(1.875rem ,0.0000000625rem + 8.3333333333vw ,4rem)) {
+    .image-infrastruktura__sportzal span {
+      left: calc(1.875rem + 2.125 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__sportzal span {
+      top: clamp(.3125rem ,-.2389705882rem + 2.4509803922vw ,.9375rem)
+    }
+  }
+  @supports not (top:clamp(0.3125rem ,-0.2389705882rem + 2.4509803922vw ,0.9375rem)) {
+    .image-infrastruktura__sportzal span {
+      top: calc(.3125rem + .625 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
   @supports (padding-top:clamp(1rem ,0.2279411765rem + 3.431372549vw ,1.875rem)) {
     .info-infrastruktura__btn {
       padding-top: clamp(1rem ,.2279411765rem + 3.431372549vw ,1.875rem)
@@ -2491,6 +3346,712 @@ img {
   @supports not (font-size:clamp(1.25rem ,0.6742125984rem + 3.5433070866vw ,2.375rem)) {
     .item-itemsright__title {
       font-size: calc(1.25rem + 1.125 * (100vw - 16.25rem)/ 31.75)
+    }
+  }
+}
+@media (min-width:62.5625em) and (max-width:90em) {
+  @supports (top:clamp(6.125rem ,-5.5609339408rem + 18.6788154897vw ,11.25rem)) {
+    .image-infrastruktura__uni {
+      top: clamp(6.125rem ,-5.5609339408rem + 18.6788154897vw ,11.25rem)
+    }
+  }
+  @supports not (top:clamp(6.125rem ,-5.5609339408rem + 18.6788154897vw ,11.25rem)) {
+    .image-infrastruktura__uni {
+      top: calc(6.125rem + 5.125 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(2.125rem ,-1.5802961276rem + 5.9225512528vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      left: clamp(2.125rem ,-1.5802961276rem + 5.9225512528vw ,3.75rem)
+    }
+  }
+  @supports not (left:clamp(2.125rem ,-1.5802961276rem + 5.9225512528vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      left: calc(2.125rem + 1.625 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__uni {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__uni {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__sad {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__sad {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(4.375rem ,-4.1756833713rem + 13.6674259681vw ,8.125rem)) {
+    .image-infrastruktura__sad {
+      top: clamp(4.375rem ,-4.1756833713rem + 13.6674259681vw ,8.125rem)
+    }
+  }
+  @supports not (top:clamp(4.375rem ,-4.1756833713rem + 13.6674259681vw ,8.125rem)) {
+    .image-infrastruktura__sad {
+      top: calc(4.375rem + 3.75 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(4.8125rem ,-3.8806947608rem + 13.8952164009vw ,8.625rem)) {
+    .image-infrastruktura__sad {
+      left: clamp(4.8125rem ,-3.8806947608rem + 13.8952164009vw ,8.625rem)
+    }
+  }
+  @supports not (left:clamp(4.8125rem ,-3.8806947608rem + 13.8952164009vw ,8.625rem)) {
+    .image-infrastruktura__sad {
+      left: calc(4.8125rem + 3.8125 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__tokio {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__tokio {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(3.1875rem ,-3.653046697rem + 10.9339407745vw ,6.1875rem)) {
+    .image-infrastruktura__tokio {
+      top: clamp(3.1875rem ,-3.653046697rem + 10.9339407745vw ,6.1875rem)
+    }
+  }
+  @supports not (top:clamp(3.1875rem ,-3.653046697rem + 10.9339407745vw ,6.1875rem)) {
+    .image-infrastruktura__tokio {
+      top: calc(3.1875rem + 3 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(7.1875rem ,-5.923547836rem + 20.9567198178vw ,12.9375rem)) {
+    .image-infrastruktura__tokio {
+      left: clamp(7.1875rem ,-5.923547836rem + 20.9567198178vw ,12.9375rem)
+    }
+  }
+  @supports not (left:clamp(7.1875rem ,-5.923547836rem + 20.9567198178vw ,12.9375rem)) {
+    .image-infrastruktura__tokio {
+      left: calc(7.1875rem + 5.75 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__pizza {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__pizza {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(4.4375rem ,-4.2556947608rem + 13.8952164009vw ,8.25rem)) {
+    .image-infrastruktura__pizza {
+      top: clamp(4.4375rem ,-4.2556947608rem + 13.8952164009vw ,8.25rem)
+    }
+  }
+  @supports not (top:clamp(4.4375rem ,-4.2556947608rem + 13.8952164009vw ,8.25rem)) {
+    .image-infrastruktura__pizza {
+      top: calc(4.4375rem + 3.8125 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(11.8125rem ,-9.4216970387rem + 33.9407744875vw ,21.125rem)) {
+    .image-infrastruktura__pizza {
+      left: clamp(11.8125rem ,-9.4216970387rem + 33.9407744875vw ,21.125rem)
+    }
+  }
+  @supports not (left:clamp(11.8125rem ,-9.4216970387rem + 33.9407744875vw ,21.125rem)) {
+    .image-infrastruktura__pizza {
+      left: calc(11.8125rem + 9.3125 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__gimnasia {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__gimnasia {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(9rem ,-7.8163439636rem + 26.8792710706vw ,16.375rem)) {
+    .image-infrastruktura__gimnasia {
+      top: clamp(9rem ,-7.8163439636rem + 26.8792710706vw ,16.375rem)
+    }
+  }
+  @supports not (top:clamp(9rem ,-7.8163439636rem + 26.8792710706vw ,16.375rem)) {
+    .image-infrastruktura__gimnasia {
+      top: calc(9rem + 7.375 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(21.4375rem ,-17.1830865604rem + 61.7312072893vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: clamp(21.4375rem ,-17.1830865604rem + 61.7312072893vw ,38.375rem)
+    }
+  }
+  @supports not (left:clamp(21.4375rem ,-17.1830865604rem + 61.7312072893vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: calc(21.4375rem + 16.9375 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__market {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__market {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(11.5rem ,-9.8767084282rem + 34.1685649203vw ,20.875rem)) {
+    .image-infrastruktura__market {
+      top: clamp(11.5rem ,-9.8767084282rem + 34.1685649203vw ,20.875rem)
+    }
+  }
+  @supports not (top:clamp(11.5rem ,-9.8767084282rem + 34.1685649203vw ,20.875rem)) {
+    .image-infrastruktura__market {
+      top: calc(11.5rem + 9.375 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(8.75rem ,-24.312642369rem + 52.84738041vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: clamp(8.75rem ,-24.312642369rem + 52.84738041vw ,23.25rem)
+    }
+  }
+  @supports not (left:clamp(8.75rem ,-24.312642369rem + 52.84738041vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: calc(8.75rem + 14.5 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__sportzal {
+      width: clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.9375rem ,-1.9103075171rem + 6.1503416856vw ,3.625rem)) {
+    .image-infrastruktura__sportzal {
+      width: calc(1.9375rem + 1.6875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-1.2753416856rem + 6.8337129841vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: calc(3rem + 1.875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (top:clamp(14.875rem ,-12.9147209567rem + 44.4191343964vw ,27.0625rem)) {
+    .image-infrastruktura__sportzal {
+      top: clamp(14.875rem ,-12.9147209567rem + 44.4191343964vw ,27.0625rem)
+    }
+  }
+  @supports not (top:clamp(14.875rem ,-12.9147209567rem + 44.4191343964vw ,27.0625rem)) {
+    .image-infrastruktura__sportzal {
+      top: calc(14.875rem + 12.1875 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+  @supports (left:clamp(10.1875rem ,-8.0539578588rem + 29.1571753986vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: clamp(10.1875rem ,-8.0539578588rem + 29.1571753986vw ,18.1875rem)
+    }
+  }
+  @supports not (left:clamp(10.1875rem ,-8.0539578588rem + 29.1571753986vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: calc(10.1875rem + 8 * (100vw - 62.5625rem)/ 27.4375)
+    }
+  }
+}
+@media (min-width:48.3125em) and (max-width:61.5em) {
+  @supports (top:clamp(11.375rem ,15.4555687204rem + -6.63507109vw ,12.25rem)) {
+    .image-infrastruktura__uni {
+      top: clamp(11.375rem ,15.4555687204rem + -6.63507109vw ,12.25rem)
+    }
+  }
+  @supports not (top:clamp(11.375rem ,15.4555687204rem + -6.63507109vw ,12.25rem)) {
+    .image-infrastruktura__uni {
+      top: calc(12.25rem + -.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(3.6875rem ,3.6875rem + 0vw ,3.6875rem)) {
+    .image-infrastruktura__uni {
+      left: clamp(3.6875rem ,3.6875rem + 0 ,3.6875rem)
+    }
+  }
+  @supports not (left:clamp(3.6875rem ,3.6875rem + 0vw ,3.6875rem)) {
+    .image-infrastruktura__uni {
+      left: calc(3.6875rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__uni {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__sad {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__sad {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(8.25rem ,12.3305687204rem + -6.63507109vw ,9.125rem)) {
+    .image-infrastruktura__sad {
+      top: clamp(8.25rem ,12.3305687204rem + -6.63507109vw ,9.125rem)
+    }
+  }
+  @supports not (top:clamp(8.25rem ,12.3305687204rem + -6.63507109vw ,9.125rem)) {
+    .image-infrastruktura__sad {
+      top: calc(9.125rem + -.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(8.5625rem ,8.5625rem + 0vw ,8.5625rem)) {
+    .image-infrastruktura__sad {
+      left: clamp(8.5625rem ,8.5625rem + 0 ,8.5625rem)
+    }
+  }
+  @supports not (left:clamp(8.5625rem ,8.5625rem + 0vw ,8.5625rem)) {
+    .image-infrastruktura__sad {
+      left: calc(8.5625rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__tokio {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__tokio {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(6.0625rem ,10.1430687204rem + -6.63507109vw ,6.9375rem)) {
+    .image-infrastruktura__tokio {
+      top: clamp(6.0625rem ,10.1430687204rem + -6.63507109vw ,6.9375rem)
+    }
+  }
+  @supports not (top:clamp(6.0625rem ,10.1430687204rem + -6.63507109vw ,6.9375rem)) {
+    .image-infrastruktura__tokio {
+      top: calc(6.9375rem + -.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(12.875rem ,12.875rem + 0vw ,12.875rem)) {
+    .image-infrastruktura__tokio {
+      left: clamp(12.875rem ,12.875rem + 0 ,12.875rem)
+    }
+  }
+  @supports not (left:clamp(12.875rem ,12.875rem + 0vw ,12.875rem)) {
+    .image-infrastruktura__tokio {
+      left: calc(12.875rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__pizza {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__pizza {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(8.1875rem ,12.5595379147rem + -7.1090047393vw ,9.125rem)) {
+    .image-infrastruktura__pizza {
+      top: clamp(8.1875rem ,12.5595379147rem + -7.1090047393vw ,9.125rem)
+    }
+  }
+  @supports not (top:clamp(8.1875rem ,12.5595379147rem + -7.1090047393vw ,9.125rem)) {
+    .image-infrastruktura__pizza {
+      top: calc(9.125rem + -.9375 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(21.1875rem ,21.1875rem + 0vw ,21.1875rem)) {
+    .image-infrastruktura__pizza {
+      left: clamp(21.1875rem ,21.1875rem + 0 ,21.1875rem)
+    }
+  }
+  @supports not (left:clamp(21.1875rem ,21.1875rem + 0vw ,21.1875rem)) {
+    .image-infrastruktura__pizza {
+      left: calc(21.1875rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__gimnasia {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__gimnasia {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(16.375rem ,21.6214454976rem + -8.5308056872vw ,17.5rem)) {
+    .image-infrastruktura__gimnasia {
+      top: clamp(16.375rem ,21.6214454976rem + -8.5308056872vw ,17.5rem)
+    }
+  }
+  @supports not (top:clamp(16.375rem ,21.6214454976rem + -8.5308056872vw ,17.5rem)) {
+    .image-infrastruktura__gimnasia {
+      top: calc(17.5rem + -1.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(38.375rem ,38.375rem + 0vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: clamp(38.375rem ,38.375rem + 0 ,38.375rem)
+    }
+  }
+  @supports not (left:clamp(38.375rem ,38.375rem + 0vw ,38.375rem)) {
+    .image-infrastruktura__gimnasia {
+      left: calc(38.375rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__market {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__market {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(20.875rem ,25.538507109rem + -7.5829383886vw ,21.875rem)) {
+    .image-infrastruktura__market {
+      top: clamp(20.875rem ,25.538507109rem + -7.5829383886vw ,21.875rem)
+    }
+  }
+  @supports not (top:clamp(20.875rem ,25.538507109rem + -7.5829383886vw ,21.875rem)) {
+    .image-infrastruktura__market {
+      top: calc(21.875rem + -1 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(23.25rem ,23.25rem + 0vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: clamp(23.25rem ,23.25rem + 0 ,23.25rem)
+    }
+  }
+  @supports not (left:clamp(23.25rem ,23.25rem + 0vw ,23.25rem)) {
+    .image-infrastruktura__market {
+      left: calc(23.25rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__sportzal {
+      width: clamp(3.625rem ,4.2079383886rem + -.9478672986vw ,3.75rem)
+    }
+  }
+  @supports not (width:clamp(3.625rem ,4.2079383886rem + -0.9478672986vw ,3.75rem)) {
+    .image-infrastruktura__sportzal {
+      width: calc(3.75rem + -.125 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(3rem ,-3.8690758294rem + 14.2180094787vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: calc(3rem + 1.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (top:clamp(27.0625rem ,31.1430687204rem + -6.63507109vw ,27.9375rem)) {
+    .image-infrastruktura__sportzal {
+      top: clamp(27.0625rem ,31.1430687204rem + -6.63507109vw ,27.9375rem)
+    }
+  }
+  @supports not (top:clamp(27.0625rem ,31.1430687204rem + -6.63507109vw ,27.9375rem)) {
+    .image-infrastruktura__sportzal {
+      top: calc(27.9375rem + -.875 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+  @supports (left:clamp(18.1875rem ,18.1875rem + 0vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: clamp(18.1875rem ,18.1875rem + 0 ,18.1875rem)
+    }
+  }
+  @supports not (left:clamp(18.1875rem ,18.1875rem + 0vw ,18.1875rem)) {
+    .image-infrastruktura__sportzal {
+      left: calc(18.1875rem + 0 * (100vw - 48.3125rem)/ 13.1875)
+    }
+  }
+}
+@media (min-width:22.5em) and (max-width:48.25em) {
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__uni {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__uni {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__uni {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__sad {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__sad {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__sad {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__tokio {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__tokio {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__tokio {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__pizza {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__pizza {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__pizza {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__gimnasia {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__gimnasia {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__gimnasia {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__market {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__market {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__market {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__sportzal {
+      width: clamp(1.6875rem ,-.005461165rem + 7.5242718447vw ,3.625rem)
+    }
+  }
+  @supports not (width:clamp(1.6875rem ,-0.005461165rem + 7.5242718447vw ,3.625rem)) {
+    .image-infrastruktura__sportzal {
+      width: calc(1.6875rem + 1.9375 * (100vw - 22.5rem)/ 25.75)
+    }
+  }
+  @supports (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: clamp(2.5rem ,.4247572816rem + 9.2233009709vw ,4.875rem)
+    }
+  }
+  @supports not (height:clamp(2.5rem ,0.4247572816rem + 9.2233009709vw ,4.875rem)) {
+    .image-infrastruktura__sportzal {
+      height: calc(2.5rem + 2.375 * (100vw - 22.5rem)/ 25.75)
     }
   }
 }
