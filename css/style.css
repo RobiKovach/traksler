@@ -2332,15 +2332,15 @@ img {
     }
   }
 }
-@media (max-width:1440px) and (min-width:22.5em) and (max-width:90em) {
-  @supports (background-position-x:clamp(-54.375rem ,-72.5000000208rem + 80.5555556481vw ,0.0000000625rem)) {
+@media (max-width:1440px) and (min-width:29.9375em) and (max-width:90em) {
+  @supports (background-position-x:clamp(-54.375rem ,-81.4776275025rem + 90.5306972945vw ,0.0000000625rem)) {
     .hero {
-      background-position-x: clamp(-54.375rem ,-72.5000000208rem + 80.5555556481vw ,.0000000625rem)
+      background-position-x: clamp(-54.375rem ,-81.4776275025rem + 90.5306972945vw ,.0000000625rem)
     }
   }
-  @supports not (background-position-x:clamp(-54.375rem ,-72.5000000208rem + 80.5555556481vw ,0.0000000625rem)) {
+  @supports not (background-position-x:clamp(-54.375rem ,-81.4776275025rem + 90.5306972945vw ,0.0000000625rem)) {
     .hero {
-      background-position-x: calc(-54.375rem + 54.3750000625 * (100vw - 22.5rem)/ 67.5)
+      background-position-x: calc(-54.375rem + 54.3750000625 * (100vw - 29.9375rem)/ 60.0625)
     }
   }
 }
