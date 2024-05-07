@@ -1309,11 +1309,6 @@ img {
 .swiper-button-lock {
   display: none!important
 }
-@media (min-width:22.5em) {
-  .text-projekt__item {
-    font-size: 1.25rem
-  }
-}
 @media (max-width:1920px) {
   .menu__body {
     position: fixed;
@@ -1496,11 +1491,6 @@ img {
   }
   .description-sell__text {
     width: 100%
-  }
-}
-@media (max-width:20em) {
-  .text-projekt__item {
-    font-size: .875rem
   }
 }
 @media (max-width:47.99875em) {
@@ -1952,6 +1942,16 @@ img {
   @supports not (padding-bottom:clamp(3.75rem ,0.9375rem + 12.5vw ,6.9375rem)) {
     .projekt__container {
       padding-bottom: calc(3.75rem + 3.1875 * (100vw - 22.5rem)/ 25.5)
+    }
+  }
+  @supports (font-size:clamp(0.875rem ,0.5441176471rem + 1.4705882353vw ,1.25rem)) {
+    .text-projekt__item {
+      font-size: clamp(.875rem ,.5441176471rem + 1.4705882353vw ,1.25rem)
+    }
+  }
+  @supports not (font-size:clamp(0.875rem ,0.5441176471rem + 1.4705882353vw ,1.25rem)) {
+    .text-projekt__item {
+      font-size: calc(.875rem + .375 * (100vw - 22.5rem)/ 25.5)
     }
   }
   @supports (width:clamp(7.5rem ,4.1911764706rem + 14.7058823529vw ,11.25rem)) {
@@ -2414,18 +2414,6 @@ img {
       -webkit-column-gap: calc(1.25rem + 11.4375 * (100vw - 48rem)/ 42);
       -moz-column-gap: calc(1.25rem + 11.4375 * (100vw - 48rem)/ 42);
       column-gap: calc(1.25rem + 11.4375 * (100vw - 48rem)/ 42)
-    }
-  }
-}
-@media (min-width:20em) and (max-width:22.5em) {
-  @supports (font-size:clamp(0.875rem ,-2.125rem + 15vw ,1.25rem)) {
-    .text-projekt__item {
-      font-size: clamp(.875rem ,-2.125rem + 15vw ,1.25rem)
-    }
-  }
-  @supports not (font-size:clamp(0.875rem ,-2.125rem + 15vw ,1.25rem)) {
-    .text-projekt__item {
-      font-size: calc(.875rem + .375 * (100vw - 20rem)/ 2.5)
     }
   }
 }
