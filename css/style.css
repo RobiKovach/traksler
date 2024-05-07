@@ -1606,7 +1606,8 @@ img {
 @media (max-width:29.99875em) {
   .hero {
     background: url(../img/hero/bgphone.webp) no-repeat;
-    background-size: cover
+    background-size: cover;
+    background-position: 0
   }
   .hero__description {
     width: 88%
