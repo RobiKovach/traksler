@@ -1814,6 +1814,9 @@ img {
     height: 1px;
     background-color: #ff9f42
   }
+  .comments__video {
+    width: 100%
+  }
   .comments__btn::before {
     display: none
   }
@@ -2227,16 +2230,6 @@ img {
   @supports not (font-size:clamp(0.875rem ,0.5441176471rem + 1.4705882353vw ,1.25rem)) {
     .comments__text {
       font-size: calc(.875rem + .375 * (100vw - 22.5rem)/ 25.5)
-    }
-  }
-  @supports (width:clamp(14.75rem ,4.9338235294rem + 43.6274509804vw ,25.875rem)) {
-    .comments__video {
-      width: clamp(14.75rem ,4.9338235294rem + 43.6274509804vw ,25.875rem)
-    }
-  }
-  @supports not (width:clamp(14.75rem ,4.9338235294rem + 43.6274509804vw ,25.875rem)) {
-    .comments__video {
-      width: calc(14.75rem + 11.125 * (100vw - 22.5rem)/ 25.5)
     }
   }
   @supports (margin-bottom:clamp(3.5rem ,-0.1948529412rem + 16.4215686275vw ,7.6875rem)) {
