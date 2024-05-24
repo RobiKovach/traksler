@@ -1520,7 +1520,7 @@ img {
 }
 .projects__video {
   width: 1280px;
-  height: auto
+  height: 560px
 }
 .text-projekts__text {
   font-family: Inter;
@@ -1858,6 +1858,9 @@ img {
   .projects__text {
     flex-direction: column;
     row-gap: 2rem
+  }
+  .projects__video {
+    height: 300px
   }
 }
 @media (max-width:29.99875em) {
